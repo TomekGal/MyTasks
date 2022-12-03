@@ -13,8 +13,7 @@ namespace MyTasks.Core.Models.Domains
         {
             Tasks = new Collection<Task>();
             Categories = new Collection<Category>();
-            var category = new Category {Name="Start" };
-            Categories.Add(category);
+           
         }
         public ICollection<Task> Tasks { get; set; }
 
